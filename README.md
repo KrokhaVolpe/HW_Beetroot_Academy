@@ -6,3 +6,5 @@
 [HW_lesson_6](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_6)<br/>
 [HW_lesson_7](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_7)<br/>
 [HW_lesson_8](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_8)<br/>
+[HW_lesson_8](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_9)<br/>
+[HW_lesson_8](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_9)<br/>
