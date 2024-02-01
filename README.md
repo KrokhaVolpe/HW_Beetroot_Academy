@@ -11,7 +11,7 @@
 [HW_lesson_11](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_11)<br/>
 [HW_lesson_13](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_13)<br/>
 [HW_lesson_14](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_14)<br/>
-[HW_lesson_15](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_14)<br/>
+[HW_lesson_15](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_15)<br/>
 [HW_lesson_16](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_16)<br/>
 
 
