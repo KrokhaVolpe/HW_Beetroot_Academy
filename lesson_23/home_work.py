@@ -20,7 +20,7 @@ def question1(first_list: List[int], second_list: List[int]) -> List[int]:
     return res
 
 
-@timer #O(O(n^2)
+@timer #O(n^2)
 def question2(n: int) -> int:
 	for _ in range(10):
 		n **= 3
@@ -49,7 +49,7 @@ def question4(input_list: List[int]) -> int:
   return res
 
 
-@timer #O(n)
+@timer ##O(n^2)
 def question5(n: int) -> List[Tuple[int, int]]:
     res: List[Tuple[int, int]] = []
     for i in range(n):
@@ -77,7 +77,8 @@ question1(first_list_2, second_list_2)
 print("="*20)
 
 question2(5)
-question2(50)
+question2(1000)
+question2(100)
 print("="*20)
 
 question3(first_list_1, second_list_1)
@@ -85,11 +86,12 @@ question3(first_list_2, second_list_2)
 print("="*20)
 
 question4(list(range(1, 1001)))
-question4(list(range(1, 10001)))
+question4(list(range(1, 100001)))
 print("="*20)
 
 question5(10)
 question5(100)
+question5(1000)
 print("="*20)
 
 question6(256)
