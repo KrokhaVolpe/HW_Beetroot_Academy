@@ -11,7 +11,7 @@ def timer(func):
     return wrapper
 
 
-@timer #O(log n)
+@timer 
 def question1(first_list: List[int], second_list: List[int]) -> List[int]:
     res: List[int] = []
     for el_first_list in first_list:
@@ -20,13 +20,13 @@ def question1(first_list: List[int], second_list: List[int]) -> List[int]:
     return res
 
 
-@timer #O(n^2)
+@timer 
 def question2(n: int) -> int:
 	for _ in range(10):
 		n **= 3
 	return n
 
-@timer #O(n!)
+@timer 
 def question3(first_list: List[int], second_list: List[int])-> List[int]:
    temp: List[int] = first_list[:]
    for el_second_list in second_list:
@@ -40,7 +40,7 @@ def question3(first_list: List[int], second_list: List[int])-> List[int]:
    return temp
 
 
-@timer #O(n)
+@timer 
 def question4(input_list: List[int]) -> int:
   res: int = 0
   for el in input_list:
@@ -49,7 +49,7 @@ def question4(input_list: List[int]) -> int:
   return res
 
 
-@timer ##O(n^2)
+@timer 
 def question5(n: int) -> List[Tuple[int, int]]:
     res: List[Tuple[int, int]] = []
     for i in range(n):
@@ -57,7 +57,7 @@ def question5(n: int) -> List[Tuple[int, int]]:
             res.append((i, j))
     return res
 
-@timer #O(1) 
+@timer 
 def question6(n: int) -> int:
     while n > 1:
         n /= 2
