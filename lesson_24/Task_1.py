@@ -36,10 +36,11 @@ if __name__ == '__main__':
     s.push_revers(123)
     s.push(2)
     s.push(3)
+    print(s.isEmpty())
     print(s.pop())
     print(s.pop())
     print(s.pop())
     print(s.pop())
-    print(s.pop())
+    #print(s.pop())  #  IndexError: Empty stack
     print(s.isEmpty())
     
