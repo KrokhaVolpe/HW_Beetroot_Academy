@@ -1,35 +1,15 @@
-#class Foo(object):
-#
-#    def __new__(cls):
-#        if not hasattr(cls, 'instance'):
-#           cls.instance = super(Foo, cls).__new__(cls)
-#            print("Instance")
-#        return cls.instance
-#
-#foo1, foo2, foo3 = Foo(), Foo(), Foo()
+#task 2
 
+# Hello-Word
+print("Hello", "World", sep="-")
 
+# Hello, Word!
+print("Hello", end=', ')
+print("World!")
+print()
 
-#x, y, *z = 1, 2, 3, 4, 5
-#print(x, y, *z)
+#task 3
 
-#class A:
-#    def __init__(self, i=100):
-#        self.i=i
-
-#class B(A):
-#     def __init__(self, j=0):
-#        self.j=j
-
-#def main():
-#    b = B()
-#    print(b.i)
-#    print(b.j)
-
-#main()
-
-
-num = [1, 2, 3, 4, 5]
-mapped = list(map(lambda x: x * 2, num))
-filtered = list(filter(lambda x: x % 3 == 0, mapped))
-print(filtered)
+print("#########\n#\t#\n#\t#\n#\t#\n#########")
+print()
+print("#\t#\n#\t#\n#########\n#\t#\n#\t#")
