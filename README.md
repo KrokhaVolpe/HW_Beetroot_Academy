@@ -16,8 +16,11 @@
 [HW_lesson_17_Polymorphism_encapsulation_Dunder_methods_in_Python](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_17)<br/>
 [HW_lesson_24_Data_structures_(stack, queue, two-way queue)](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/lesson_24)<br/>
 [HW_lesson_25_Data_structures_(lists)](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_25)<br/>
+[HW_lesson_29_Graphs_and_graph_algorithms](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_29)<br/>
 [HW_lesson_30_Network_programming_basics](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_30)<br/>
 [HW_lesson_31_Introduction_to_HTTP_creating_HTTP_requests](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_31)<br/>
+
+
 
 
 
