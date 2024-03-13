@@ -20,6 +20,9 @@
 [HW_lesson_29_Graphs_and_graph_algorithms](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_29)<br/>
 [HW_lesson_30_Network_programming_basics](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_30)<br/>
 [HW_lesson_31_Introduction_to_HTTP_creating_HTTP_requests](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_31)<br/>
+[HW_lesson_36_SQL basics. Part 1](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_36)<br/>
+
+
 
 
 
