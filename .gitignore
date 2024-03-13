@@ -2,7 +2,7 @@
 
 venv/
 venv2/
-env/
+np_env/
 
 __pychache__
 *.pyc
