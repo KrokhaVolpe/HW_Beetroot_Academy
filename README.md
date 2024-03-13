@@ -22,6 +22,9 @@
 [HW_lesson_31_Introduction_to_HTTP_creating_HTTP_requests](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_31)<br/>
 [HW_lesson_36_SQL basics. Part 1](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_36)<br/>
 [HW_lesson_37_SQL basics. Part 2](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_37)<br/>
+[HW_lesson_38_Django. First steps](https://github.com/KrokhaVolpe/HW_Beetroot_Academy/tree/main/HW_lesson_38/note_app)<br/>
+
+
 
 
 
