@@ -4,5 +4,6 @@ venv/
 venv2/
 np_env/
 
+rozdil/
 __pychache__
 *.pyc
