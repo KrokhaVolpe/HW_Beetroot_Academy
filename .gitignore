@@ -4,6 +4,8 @@ venv/
 venv2/
 np_env/
 
-
 __pychache__
 *.pyc
+
+.env
+.env.sample
