@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 6%);
+    color: rgb(255, 255, 255);
+
+}
+
+header {
+    display: flex;  
+    margin-bottom: 25px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.group {
+    padding: 25px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px 25px 25px 20px;
+}
+
+.style-logo {
+    width: 50px;
+    height: 55px;
+}
+
+p {
+    line-height: 1.8;
+    
+}
+
+.style-category-title > p {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: rgb(251, 238, 0);
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px;
+    border-color: aliceblue;
+}
+
+.style-category-title {
+    margin-bottom: 25px;
+    border-radius: 7px;
+    box-shadow: 0 4px 4px rgba(176, 176, 176, 0.1);
+}
+
+.style-note {
+    padding-top: 25px;
+    transition: margin 0.2s ease;
+
+}
+
+.style-note:hover {
+    margin: 0 0 10px 10px;
+}
+
+.style-note:first-child {
+    padding-top: 0; 
+}
+
+.style-title-note {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.style-text-note {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.style-time-note {
+    text-align: end;
+    border-bottom: 1px solid rgba(176, 176, 176, 0.1);
+    
+}
+
+.style-time-note:hover {
+    color: rgb(153, 153, 152);
+}
+
