@@ -3,10 +3,10 @@
 venv/
 venv2/
 np_env/
-Works_lesson/
 
 __pychache__
 *.pyc
 
 .env
 .env.sample
+data.json

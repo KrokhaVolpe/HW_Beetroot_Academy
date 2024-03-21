@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/reset_style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Notes</title>
+</head>
+<body class="container">
+    <header>
+        <img src="{% static 'img/logo.png' %}" alt="logo" class="style-logo">
+        <h1>Нотатки</h1>
+    </header>
+    <main>  
+    <ul class="top_list">
+    {% for category in categories %}
+        <li class="style-category-title">
+            <p>{{ category.title }}</p>
+            <div class="sub_list">
+                <ul class="group">
+                {% for note in category.notes_set.all %}
+                    <li class="style-note">
+                        <p class="style-title-note ">{{ note.title }}</p>
+                        <p class="style-text-note">{{ note.text|linebreaksbr }}</p>
+                        <p class="style-time-note">{{ note.reminder|date:'M d, Y H:i' }}</p>
+                    </li>
+                {% endfor %}
+                {% if category.notes_set.all|length == 0 %}
+                    <li>Нотатків на тему {{ category.title }} не має</li>
+                {% endif %}
+            </ul>
+        </div>
+    {% endfor %}
+    </ul>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
