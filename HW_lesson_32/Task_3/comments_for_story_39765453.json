@@ -1,0 +1,62 @@
+[
+    {
+        "by": "chasing",
+        "id": 39802830,
+        "kids": [
+            39802958
+        ],
+        "parent": 39765453,
+        "text": "As with all things, it\u2019s great having extra time. As long as you can afford it.",
+        "time": 1711225299,
+        "type": "comment"
+    },
+    {
+        "by": "uldos",
+        "id": 39803445,
+        "kids": [
+            39803742,
+            39803850,
+            39803835
+        ],
+        "parent": 39765453,
+        "text": "This is a strange article. There are slow writers, there are fast writers. It seems that each writer is in a way different like\u2026 like any person! So..?",
+        "time": 1711232332,
+        "type": "comment"
+    },
+    {
+        "by": "halfcat",
+        "id": 39802978,
+        "parent": 39765453,
+        "text": "Cal Newport has a new book about this, Slow Productivity, worth reading if one is interested in more on this topic",
+        "time": 1711226561,
+        "type": "comment"
+    },
+    {
+        "by": "paulpauper",
+        "id": 39803625,
+        "parent": 39765453,
+        "text": "<i>As J.R.R Tolkien said to W. H. Auden, on the 12 years he spent writing Lord of the Rings, \u201cI met a lot of things on the way that astonished me.\u201d</i><p>but those books are fuckign huge though. it does not surprise me it took so long",
+        "time": 1711234704,
+        "type": "comment"
+    },
+    {
+        "by": "vishalontheline",
+        "dead": true,
+        "id": 39802788,
+        "kids": [
+            39803752
+        ],
+        "parent": 39765453,
+        "text": "[flagged]",
+        "time": 1711224850,
+        "type": "comment"
+    },
+    {
+        "by": "smekta",
+        "id": 39803185,
+        "parent": 39765453,
+        "text": "RR Martin, is this you?",
+        "time": 1711229070,
+        "type": "comment"
+    }
+]
