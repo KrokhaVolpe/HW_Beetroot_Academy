@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class = "section">
+	<h3 class = "cat-title">Категорії :</h3>
+	<ul>
+		{% for category in categories %}
+		<p>
+			<a style = "border-bottom: unset" href = "{% url 'category' category.id %}"> -- {{ category }} </a>
+		</p>
+		{% empty %}
+		<li>Ще не додано жодної категорії.</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endblock content %}

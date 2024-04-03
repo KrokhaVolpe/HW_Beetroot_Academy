@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ua">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/reset_style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Notes</title>
+</head>
+<body>
+    <header class="header-container">
+	    <div class="user-logout-block">
+		    {% if user.is_authenticated %}
+		    <p>Привіт, {{ user.username }}</p>
+		    <form action="{% url 'logout' %}" method="post">
+			    {% csrf_token %}
+			    <button type="submit" class="btn-new ">Вийти</button>
+		    </form>
+		    {% else %}
+		    <a href="{% url 'register' %}">Зареєструватися</a>
+		    <a href="{% url 'login' %}">Авторизуватися</a>
+		    {% endif %}
+	    
+	    </div>
+	    <div class="header-logo-block">
+            <a href="{% url 'index' %}">
+                <img src="{% static 'img/logo.png' %}" alt="logo" class="style-logo">
+                <h1>Нотатки</h1>
+            </a>
+        </div>
+        {% if user.is_authenticated %}
+        <div class="header-categories-block">
+            <a href="{% url 'categories' %}"><p>Категорії</p></a>
+            <a href="{% url 'new_category' %}"><p>Додати категорію</p></a>
+        </div>
+        <div class="search-block">
+                
+            <form action="{% url 'search_notes' %}" method="GET">
+                <input type="text" name="title" placeholder="Пошук за заголовком">
+                <button type="submit" class="btn-new">Пошук</button>
+            </form>
+        </div>
+        {% else %}
+		    <h3 class="alert_2">Для роботи з нотатками необхідно авторизуватися або зареєструватися.</h3>
+        {% endif %}
+    </header>
+</body>
+{% block content %}{% endblock content %}

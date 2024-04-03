@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'notes',
 ]
 
+LOGIN_URL = '/notes/login/'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -60,7 +62,7 @@ ROOT_URLCONF = 'note_app.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['E:\\WorkSpaceKatarina\\HW_Beetroot_Academy\\Notes_dj_project\\np_env\\Lib\\site-packages\\django\\contrib\\auth\\notes\\templates\\',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

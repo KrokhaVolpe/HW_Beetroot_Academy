@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="pad section">
+        <h2 class="cat-title pad-title">
+	        <a href="{% url 'category' category.id %}"></a>Категорія: {{ category }}</h2>
+	    <br>
+        <h3 class="pad-title cat-title">Нова нотатка</h3>
+	    <br>
+        <form action="{% url 'new_notes' category.id %}" method="post" class="input-field">
+            {% csrf_token %}
+            {{ form }}
+            <button type="submit" value="submit" class="submit-btn">Додати</button>
+        </form>
+    </div>
+{% endblock content %}

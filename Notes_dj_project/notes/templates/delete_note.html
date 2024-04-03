@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+		<div class = "section pad">
+			<h3 class="cat-title pad-title">Ви впевнені, що хочете видалити цю нотатку "{{ note.title }}"?</h3>
+			<form method = "post">
+				{% csrf_token %}
+				<input type = "submit" value = "Підтвердити видалення" class="submit-btn">
+			</form>
+		</div>
+
+{% endblock content %}

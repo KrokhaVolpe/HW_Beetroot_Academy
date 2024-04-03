@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<div class = "category-section">
+	<p class = "cat-title">Категорія: {{category}}</p>
+	<div class = "cat-button">
+		<div>
+			<a href = "{% url 'new_notes' category.id %}" class = "btn-cat">
+				<p>Додати нотатку</p>
+			</a>
+		</div>
+		<div>
+			<form action = "{% url 'delete_category' category.id %}" method = "post">
+				{% csrf_token %}
+				{{ form.as_p}}
+				<input class = "btn-cat" type = "submit" value = "Видалити категорію">
+			</form>
+		</div>
+	</div>
+</div>
+<ul>
+	{% for note in notes %}
+	<li class = "card">
+		<div class = "card-body">
+			<div class = "card-text">
+				<p class = "card-title">{{ note.title }}</p>
+				<p class = "card-desc">{{ note.text|linebreaks }}</p>
+				<p class = "card-date">{{ note.reminder|date:'M d, Y H:i' }}</p>
+			</div>
+			<div class = "card-btn-block">
+				<a href = "{% url 'edit_note' note.id %}" class = "btn-new">
+					<p>Редагувати</p>
+				</a>
+				<a href = "{% url 'delete_note' note.id %}" class = "btn-new ">
+					<p>Видалити</p>
+				</a>
+			</div>
+		</div>
+	</li>
+	{% empty %}
+		<li><p style="font-size: 16px; margin: 10px">Для цієї категорії ще немає записів.</p></li>
+	{% endfor %}
+</ul>
+
+{% endblock content %}
